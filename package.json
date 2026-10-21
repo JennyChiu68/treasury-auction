@@ -1,0 +1,14 @@
+{
+  "name": "jin10-treasury-auction-radar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "金十数据美债拍卖雷达移动端设计 Demo",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "sync-data": "node scripts/sync-data.mjs"
+  }
+}
